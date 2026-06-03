@@ -1,5 +1,5 @@
-from helpers import greet
-from old_utils import load_config
+from .helpers import greet
+from .old_utils import load_config
 
 
 def main(config_path="config/app.yaml"):
