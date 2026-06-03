@@ -7,14 +7,12 @@ A small application now organized in a conventional src layout.
 ```text
 messy_project/
 ├── README.md
-├── main.py
 ├── src/
 │   └── messy_project/
 │       ├── __init__.py
 │       ├── main.py
 │       ├── helpers.py
 │       └── old_utils.py
-├── test_main.py
 ├── tests/
 │   ├── __init__.py
 │   ├── test_main.py
