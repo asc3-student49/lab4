@@ -1,5 +1,5 @@
-## #Initial prompt for plan
-i started with generic prompt with the context of the brief.md file
+## Initial prompt for plan
+i started with generic prompt with the context of the RESTRUCTURE_BRIEF.md file
 AI asked me couple of questions 
 1. should we rename workspace root to messyproject or keep current root name and apply target structure within it?
 
