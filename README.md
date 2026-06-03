@@ -7,6 +7,7 @@ A small application now organized in a conventional src layout.
 ```text
 messy_project/
 ├── README.md
+├── main.py
 ├── src/
 │   └── messy_project/
 │       ├── __init__.py
