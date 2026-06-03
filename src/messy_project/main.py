@@ -4,7 +4,8 @@ from .old_utils import load_config
 
 def main(config_path="config/app.yaml"):
     cfg = load_config(config_path)
-    return greet(cfg.get("name", "world"))
+    name = cfg.get("name", "world") if isinstance(cfg, dict) else "world"
+    return greet(name)
 
 
 if __name__ == "__main__":
