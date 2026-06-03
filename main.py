@@ -1,10 +1,12 @@
-from helpers import greet
-from old_utils import load_config
+import sys
+from pathlib import Path
 
 
-def main(config_path="config/app.yaml"):
-    cfg = load_config(config_path)
-    return greet(cfg.get("name", "world"))
+SRC_PATH = Path(__file__).parent / "src"
+if str(SRC_PATH) not in sys.path:
+    sys.path.insert(0, str(SRC_PATH))
+
+from messy_project.main import main
 
 
 if __name__ == "__main__":
