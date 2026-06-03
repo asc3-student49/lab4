@@ -13,6 +13,7 @@ messy_project/
 │       ├── main.py
 │       ├── helpers.py
 │       └── old_utils.py
+├── test_main.py
 ├── tests/
 │   ├── __init__.py
 │   ├── test_main.py
